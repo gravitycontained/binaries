@@ -1,0 +1,1 @@
+@echo off && cd D:/binaries/ && git add -A && git status
