@@ -1,8 +1,0 @@
-On branch main
-Your branch is up to date with 'origin/main'.
-
-Changes to be committed:
-  (use "git restore --staged <file>..." to unstage)
-	new file:   git_push_status.bat
-	new file:   output.txt
-
