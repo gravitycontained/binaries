@@ -1,0 +1,181 @@
+===== ENCRYPTION TEST FILE =====
+Total Words: ~1000
+Purpose: Testing encryption and decryption with various character patterns
+
+SECTION 1: STANDARD ASCII TEXT
+The quick brown fox jumps over the lazy dog. This pangram contains every letter of the English alphabet at least once. We use it to test typography, fonts, and now encryption algorithms. Here we have normal prose with standard punctuation marks including periods, commas, semicolons; colons: exclamation marks! and question marks? Let's also include some contractions like don't, won't, can't, and shouldn't.
+
+SECTION 2: NUMERIC PATTERNS
+Sequential numbers: 0123456789
+Reverse numbers: 9876543210
+Phone format: (555) 123-4567
+Date formats: 2026-01-31, 01/31/2026, 31.01.2026
+Time formats: 14:30:45, 2:30 PM, 02:30:45.123
+Large numbers: 1,000,000 | 3.14159265359 | -273.15
+Binary: 01010101 10101010 11110000 00001111
+Hexadecimal: 0x1A2B3C4D 0xDEADBEEF 0xCAFEBABE
+Scientific: 6.022e23 1.602e-19 2.998e8
+
+SECTION 3: SPECIAL CHARACTERS & SYMBOLS
+Basic symbols: !@#$%^&*()_+-=[]{}|;':",.<>?/~`
+Currency: $100.00 €50.00 £75.00 ¥1000 ₹500
+Math operators: + - × ÷ = ≠ < > ≤ ≥ ± ∞ √ ∫ ∑
+Brackets & braces: () [] {} <> «» ‹›
+Quotes: "double" 'single' "curly" 'curly' „German"
+Arrows: → ← ↑ ↓ ↔ ⇒ ⇐ ⇔
+Misc: © ® ™ § ¶ † ‡ • ° ¢ £ ¤ ¥
+
+SECTION 4: WHITESPACE VARIATIONS
+Single space between words.
+Double  space  between  words.
+Triple   space   between   words.
+Tab	separated	values	here.
+Mixed 	 spaces	and  	tabs 	 together.
+
+Line breaks:
+Single line break above.
+
+Double line break above.
+
+
+Triple line break above.
+
+Indentation test:
+	Level 1 indent
+		Level 2 indent
+			Level 3 indent
+				Level 4 indent
+
+SECTION 5: REPEATED PATTERNS
+AAAAAAAAAA BBBBBBBBBB CCCCCCCCCC DDDDDDDDDD
+0000000000 1111111111 2222222222 3333333333
+!!!!!!!! ???????? ........ ,,,,,,,,
+========================================
+########################################
+****************************************
+++++++++++++++++++++++++++++++++++++++++
+
+SECTION 6: MIXED CASE PATTERNS
+lowercase only text in this line
+UPPERCASE ONLY TEXT IN THIS LINE
+Title Case For Every Word Here
+camelCaseFormattingLikeThis
+PascalCaseFormattingLikeThis
+snake_case_formatting_like_this
+SCREAMING_SNAKE_CASE_LIKE_THIS
+kebab-case-formatting-like-this
+
+SECTION 7: UNICODE & EXTENDED ASCII
+Accented characters: àáâãäåèéêëìíîïòóôõöùúûü
+German: äöüßÄÖÜ Müller Größe
+French: àâæçéèêëïîôùûü naïve café
+Spanish: ñáéíóúü mañana señor
+Nordic: øåæØÅÆ København
+Greek letters: αβγδεζηθικλμνξοπρστυφχψω
+Common symbols: • ● ○ ◦ ▪ ▫ ◊ ◘ ◙ ♠ ♣ ♥ ♦
+
+SECTION 8: PROGRAMMING CODE SAMPLES
+Python:
+def fibonacci(n):
+	if n <= 1:
+		return n
+	return fibonacci(n-1) + fibonacci(n-2)
+
+C++:
+for (int i = 0; i < 10; ++i) {
+	std::cout << "Value: " << i << std::endl;
+}
+
+JavaScript:
+const arr = [1, 2, 3, 4, 5];
+arr.map(x => x * 2).filter(x => x > 5);
+
+SQL:
+SELECT * FROM users WHERE age >= 18 AND status = 'active';
+
+SECTION 9: EDGE CASES & BOUNDARY CONDITIONS
+Empty parentheses: ()
+Empty brackets: []
+Empty braces: {}
+Nested structures: {{[]}}
+Escaped characters: \" \' \\ \n \t \r
+URLs: https://example.com/path?param=value&other=123#anchor
+Email: test.user+tag@example.co.uk
+File paths: C:\Windows\System32\file.txt /usr/local/bin/program
+Regex patterns: ^[a-zA-Z0-9]+@[a-zA-Z0-9]+\.[a-z]{2,}$
+
+SECTION 10: LOREM IPSUM VARIATION
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+
+SECTION 11: LONG UNBROKEN STRINGS
+abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789
+1234567890123456789012345678901234567890123456789012345678901234567890
+!@#$%^&*()_+-=[]{}|;':",.<>?/~`!@#$%^&*()_+-=[]{}|;':",.<>?/~`
+
+SECTION 12: STRUCTURED DATA FORMATS
+JSON: {"name":"test","value":123,"active":true,"items":[1,2,3]}
+XML: <root><element attr="value">content</element></root>
+CSV: field1,field2,field3,"quoted,field",field5
+INI: [section]\nkey=value\nanother_key=another value
+
+SECTION 13: COMPRESSION TEST PATTERNS
+Highly compressible: aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+Medium compressible: The the the quick quick brown brown fox fox
+Random-like: xKj9mP2qL7nR4wE8sF3vH6yT1zA5bC0dG
+Mixed: AAA bbb CCC ddd EEE fff GGG hhh III jjj
+
+SECTION 14: BOUNDARY TEXT BLOCKS
+First line of this block
+Middle content with various lengths and patterns that test wrapping
+Last line of this block completes the pattern check
+
+Block with precise character counts:
+Exactly fifty characters in this line of text here!
+This line has exactly one hundred characters in total including all spaces and punctuation marks here.
+
+SECTION 15: LINGUISTIC VARIATIONS
+Sentence fragments. Multiple. Short. Ones.
+A much longer sentence that contains multiple clauses, several commas, and goes on for quite some time before finally ending with proper punctuation.
+Questions? Answers! Exclamations! More questions?
+Ellipsis test... waiting... thinking... done...
+Dashes test — em dash – en dash - hyphen differences shown
+
+SECTION 16: FORMATTING MARKERS
+*bold text* _italic text_ `code text` ~strikethrough~
+[link](url) ![image](path) > blockquote
+# Heading 1
+## Heading 2
+### Heading 3
+- List item 1
+- List item 2
+  - Nested item
+1. Numbered item
+2. Another numbered
+
+SECTION 17: CONTROL-LIKE SEQUENCES
+Backslash tests: \\ \n \t \r \0 \x1A \u0041
+Escape sequences: \" \' \a \b \f \v
+Path separators: / \ // \\ \\\ ///
+Quote combinations: "" '' "" '' „" ‚'
+
+SECTION 18: RANDOMIZED WORD COMBINATIONS
+Quantum mechanics defy classical intuition repeatedly.
+Algorithms optimize efficiency through careful analysis.
+Database transactions ensure consistency across systems.
+Network protocols enable communication between devices.
+Cryptographic hashing provides data integrity verification.
+
+SECTION 19: CHARACTER DENSITY TESTS
+a b c d e f g h i j k l m n o p q r s t u v w x y z
+A  B  C  D  E  F  G  H  I  J  K  L  M  N  O  P  Q  R
+1   2   3   4   5   6   7   8   9   0   !   @   #   $
+Dense:abcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*()
+
+SECTION 20: FINAL VALIDATION BLOCK
+This final section contains exactly what you need to verify complete encryption and decryption cycles. Test for data integrity, character preservation, whitespace handling, special symbol retention, and overall file structure maintenance. Successful decryption should yield identical content with perfect fidelity.
+
+===== END OF TEST FILE =====
+Total approximate word count: 1000+
+Character variety: Complete ASCII range with extended symbols
+Whitespace patterns: Spaces, tabs, newlines, multiple consecutive
+Structure: 20 distinct sections with varied content types
