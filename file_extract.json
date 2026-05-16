@@ -1,0 +1,7 @@
+{
+	"blacklist_directory": [
+		"node_modules",
+		".git",
+		".angular"
+	]
+}
